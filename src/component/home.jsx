@@ -1,17 +1,19 @@
 import React from 'react';
+import PP from "../assets/pp.png";
 import '../styles/home.css';
 
 const LandingPage = () => {
     return (
         <div className="landing-page">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Explore my education, projects, and contact information.</p>
-            <div className="buttons">
-                <button><a href="/education">Education</a></button>
-                <button><a href="/projects">Projects</a></button>
-                <button><a href="/about">About</a></button>
-                <button><a href="/contact">Contact Me</a></button>
+            <div className='landing-info'>
+                <h1>Welcome to My Portfolio</h1>
+                <p>"Hi, I'm Firafis Berhanu, a passionate Software Engineer.
+                    I specialize in building user-friendly, efficient applications.
+                    Explore my projects, learn about my skills, and let's create something amazing together!
+                    I'm excited to connect and collaborate</p>
             </div>
+
+            <div className='landing-img'><img src={PP} alt="Personal photo" /></div>
         </div>
     );
 };

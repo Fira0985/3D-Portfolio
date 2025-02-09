@@ -1,6 +1,10 @@
 .landing-page {
+    display: flex;
+    flex-direction: row;
     text-align: center;
     padding: 50px;
+    height: 87vh;
+    background-color: #333333;
 }
 
 .buttons button {
